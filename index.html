@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Min första sida</title>
+  </head>
+  <body>
+    <h1>Min första sida..</h1>
+    <div>
+      <div>
+        <input placeholder="Någonting"</input>
+      </div>
+      <button>Add</button>
+    </div>
+    <button>Go!</button>
+  </br>
+    <button onclick="myFunction()">Klicka här</button>
+    <script>
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "email");
+    x.setAttribute("value", "john@example.com");
+    document.body.appendChild(x);
+}
+</script>
+  </body>
+</html>
